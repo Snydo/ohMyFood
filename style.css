@@ -62,3 +62,67 @@ main {
     border-radius: 60px;
     
 }
+
+section.fonction {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fonction-container {
+    width: 95%;
+}
+
+.fonction-step{
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    background: #f3f3f3c0;
+    border-radius: 20px;
+}
+
+.fonction-numero{
+    background-color: #9356DC;
+    color: white;
+    position: absolute;
+    padding: 3px 8px 3px 8px;
+    border-radius: 500px;
+}
+
+.fonction-icon {
+    padding: 0 17px 0 31px;
+}
+
+section.restaurant {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+}
+.restaurant-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.restaurant-container a {
+    display: flex;
+    justify-content: center;
+}
+.restaurant-bloc {
+    display: flex;
+    width: 80%;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.restaurant-img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 193px;
+}
