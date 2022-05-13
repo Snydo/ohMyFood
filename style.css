@@ -83,6 +83,7 @@ section.fonction {
 }
 
 .fonction-step{
+    height: 65px;
     margin: 23px 20px;
     display: flex;
     align-items: center;
@@ -171,6 +172,10 @@ section.restaurant {
     font-weight: bold;
 }
 
+.fa-solid i{
+    display: none;
+}
+
 
 .restaurant-new p{
     margin: 8px 15px 8px 15px;
@@ -196,7 +201,7 @@ section.restaurant {
     position: relative;
 }
 
-img {
+.restaurant-img img {
     width: 100%;
     height: 193px;
     border-top-left-radius: 20px;
@@ -229,11 +234,10 @@ footer{
 .footer-titre{
     font-family: Shrikhand, sans-serif;
     width: 80%;
+    font-weight: normal;
 }
 
-.footer-titre h3{
-    /* margin: 0 0 15px 0; */
-}
+
 .footer-list{
     width: 80%;
 }
