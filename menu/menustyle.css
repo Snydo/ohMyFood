@@ -39,6 +39,7 @@ header{
 }
 .menu-titre{
     position: relative;
+    margin-top: 20px;
     margin-left: 8px;
 }
 .menu-titre p{
@@ -58,7 +59,7 @@ header{
 }
 .menu-container {
     position: relative;
-    margin-top: -25px;
+    margin-top: -55px;
     padding: 0 20px;
     background: #eee;
     border-radius: 25px 25px 0 0;
@@ -110,9 +111,9 @@ h3{
 .menu-check{
     display: none;
     position: absolute;
-    width: 35px;
+    width: 32px;
     background: #99E2D0;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 20px 20px 0;
     right: 0px;
     padding: 0 13px;
     height: 100%;
@@ -154,9 +155,12 @@ h3{
 #bloc9{
     animation-delay: 0.9s;
 }
-
+.menu-1:hover{
+    cursor: pointer;
+}
  .menu-1:hover .menu-check {
     display: block;
+    cursor: pointer;
     animation: scale-in-hor-right 0.5s both;
 } 
 .menu-1:hover .menu-prix {

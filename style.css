@@ -26,8 +26,8 @@ body{
   border-left: 7px solid #99e2d0;
   border-right: 7px solid #99e2d0;
   border-radius: 45%;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   margin: auto;
   position: fixed;
   top: 0;
@@ -266,10 +266,22 @@ a{
     align-content: center;
     align-items: center;
 }
-i.fa-solid.fa-heart {
-    position: absolute;
+
+.restaurant-coeur:hover .fa-regular.fa-heart {
+    animation: opacity 0.5s both;
 }
 
+.restaurant-coeur:hover .fa-solid.fa-heart {
+    animation: no-opacity 0.5s both;
+}
+i.fa-solid.fa-heart {
+    position: absolute;
+    opacity: 0;
+    color: #dd78d9;
+}
+i.fa-regular.fa-heart{
+    color: black;
+}
 
 footer{
     background: rgb(75, 71, 71);
@@ -358,3 +370,22 @@ ul{
     }
   }
   
+  @keyframes no-opacity {
+      0% {
+          opacity: 0;
+      }
+      
+      100% {
+          opacity: 1;
+      }
+  }
+
+  @keyframes opacity {
+      0% {
+          opacity: 1;
+      }
+      
+      100% {
+          opacity: 0;
+      }
+  }
