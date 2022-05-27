@@ -291,6 +291,11 @@ footer{
     align-items: center;
 }
 
+.footer-list li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .footer-titre{
     font-family: Shrikhand, sans-serif;
     width: 80%;
