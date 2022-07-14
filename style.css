@@ -3,7 +3,7 @@ body{
     margin: auto;
     font-family: "Roboto", sans-serif;
 }
-
+/* LOADER SPIN */
 .load{
     height: 100%;
   background: white;
@@ -62,7 +62,7 @@ main {
     justify-content: center;
     flex-direction: column;
 }
-
+/* PARTIE 1 HAUT DE PAGE (FONCTION + EXPLORE) */
 .position {
     display: flex;
     align-items: center;
@@ -158,6 +158,7 @@ section.fonction {
     padding: 0 17px 0 40px;
 }
 
+/* PARTIE RESTAURANT */
 section.restaurant {
     display: flex;
     flex-direction: column;
